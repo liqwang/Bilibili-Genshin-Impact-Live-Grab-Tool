@@ -1,0 +1,83 @@
+{
+  "code": 0,
+  "message": "0",
+  "ttl": 1,
+  "data": {
+    "task_info": {
+      "id": 1407,
+      "act_id": 379,
+      "group_list": [
+        {
+          "task_id": 1407,
+          "act_id": 379,
+          "group_id": 7060,
+          "group_base_num": 1,
+          "group_complete_num": 0,
+          "act_counter_name": ""
+        }
+      ],
+      "task_period": 0,
+      "reward_id": 8382,
+      "reward_type": 1,
+      "reward_info": {
+        "reward_id": 8382,
+        "reward_name": "相遇之缘*3",
+        "reward_icon": "https://i0.hdslb.com/bfs/activity-plat/static/g3dIQ9MZs1.png",
+        "reward_act_id": 1203,
+        "type": "CdKeyV2",
+        "pre_check_passed": true,
+        "awards": [
+          {
+            "award_id": 8382,
+            "award_name": "相遇之缘*3",
+            "award_icon": "https://i0.hdslb.com/bfs/activity-plat/static/g3dIQ9MZs1.png",
+            "award_type": "CdKeyV2",
+            "award_description": "兑换码有效期：2022/7/13-2022/10/13"
+          }
+        ]
+      },
+      "reward_period_pool_num": 2000,
+      "reward_period_received_num": 80,
+      "reward_period_stock_num": 1920,
+      "reward_receive_begin_time": 1658073600,
+      "reward_receive_end_time": 1658159999,
+      "receive_id": 0,
+      "receive_status": 0,
+      "receive_period": 20220718,
+      "task_name": "新增1名舰长",
+      "task_receive_description": "1、直播需在手游-原神分区进行开播 ,领奖前请仔细阅读任务模块下方\"点击查看参与规则” ，避免出现卡点直播等情况导致无法完成任务。\n2、本奖品共4000份，数量有限，先到先得；每日限量发放2000份，如超出每日领取上限，请在次日0点奖励库存刷新后重新完成该任务再尝试领取奖励。\n3、已领取的游戏CDK可前往站内私信或点击本页面右上角的领取记录进行查看，请注意奖励展示数量有限，务必及时前往游戏内兑换。\n4、请注意妥善保存奖励信息，如出现兑换异常，请附带异常截图或录屏，联系客服咨询。 ",
+      "reward_stock_configs": [
+        {
+          "cycle_type": 1,
+          "limit_type": 1,
+          "total": 4000,
+          "consumed": 668,
+          "cycle_start_time": 1657681200,
+          "cycle_end_time": 1661270399
+        },
+        {
+          "cycle_type": 2,
+          "limit_type": 1,
+          "total": 2000,
+          "consumed": 80,
+          "cycle_start_time": 1658073600,
+          "cycle_end_time": 1658159999
+        }
+      ],
+      "inb": false
+    },
+    "act_info": {
+      "id": 379,
+      "act_name": "原神2.8直播任务",
+      "begin_time": 1657681200,
+      "end_time": 1661270399,
+      "uid_count": 200000,
+      "groups_act_id": 786502,
+      "bind_phone_check": 1,
+      "status": 0,
+      "mapping_type": 1,
+      "act_type": 0,
+      "act_open_sid": "786502"
+    }
+  }
+}

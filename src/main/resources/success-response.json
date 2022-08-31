@@ -1,0 +1,28 @@
+{
+  "code": 0,
+  "message": "0",
+  "ttl": 1,
+  "data": {
+    "activity_id": 1203,
+    "activity_name": "原神2.8激励计划",
+    "receive_time": 1658077534,
+    "type": "CdKeyV2",
+    "name": "精锻用魔矿*5（每日1）",
+    "icon": "https://i0.hdslb.com/bfs/activity-plat/static/MAznSpnSCb.png",
+    "extra": {
+      "cdkey_content": "3B44PTP4859J",
+      "cdkey_id": "670425"
+    },
+    "award_id": 8350,
+    "mid": 12528026,
+    "description": "",
+    "pre_check_ok": true,
+    "pre_check_msg": "",
+    "send_extra": {
+      "cdkey_content": "3B44PTP4859J",
+      "cdkey_id": "670425"
+    },
+    "pre_check_error_type": "",
+    "unique_id": "mis-12528026-379-1395-20220718-0"
+  }
+}
