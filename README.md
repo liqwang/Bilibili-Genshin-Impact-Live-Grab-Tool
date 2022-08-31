@@ -1,6 +1,6 @@
-## 运行效果图
+## 运行效果
 
-<img src="README.pictures/image-20220831191210506.png" alt="image-20220831191210506" style="zoom:80%;" />
+.<img src="README.pictures/image-20220831191210506.png" alt="image-20220831191210506" style="zoom:80%;" />
 
 
 
@@ -8,7 +8,7 @@
 
 1. 浏览器进入奖品页面
 
-   <img src="README.pictures/image-20220831185711482.png" alt="image-20220831185711482" style="zoom:80%;" />
+   .<img src="README.pictures/image-20220831185711482.png" alt="image-20220831185711482" style="zoom:80%;" />
 
 2. F12打开开发者选项
 
@@ -16,15 +16,15 @@
 
 4. 刷新，找到`single_task`开头的URL，保存CSRF
 
-   <img src="README.pictures/image-20220831184349709.png" alt="image-20220831184349709" style="zoom:80%;" />
+   .<img src="README.pictures/image-20220831184349709.png" alt="image-20220831184349709" style="zoom:80%;" />
 
 4. 再在"请求标头"中找到Cookie，右键"复制值"
 
-   <img src="README.pictures/image-20220831184720930.png" alt="image-20220831184720930" style="zoom:80%;" />
+   .<img src="README.pictures/image-20220831184720930.png" alt="image-20220831184720930" style="zoom:80%;" />
 
 5. 将获取的CSRF和Cookie填入
 
-   <img src="README.pictures/image-20220831184947526.png" alt="image-20220831184947526" style="zoom:80%;" />
+   .<img src="README.pictures/image-20220831184947526.png" alt="image-20220831184947526" style="zoom:80%;" />
 
 6. 启动
 
