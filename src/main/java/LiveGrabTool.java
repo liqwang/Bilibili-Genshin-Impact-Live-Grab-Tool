@@ -53,6 +53,7 @@ public class LiveGrabTool {
 			Response infoResponse = client.newCall(infoRequest).execute();
 			//response body见info-response.json
 			Map<String, Object> infoMap = mapper.readValue(infoResponse.body().string(), new TypeReference<>(){});
+			infoResponse.close();
 			taskInfoMap = (Map<String, Object>) ((Map<String, Object>) infoMap.get("data")).get("task_info");
 			receiveId=(int)taskInfoMap.get("receive_id");
 			if(receiveId==0){
