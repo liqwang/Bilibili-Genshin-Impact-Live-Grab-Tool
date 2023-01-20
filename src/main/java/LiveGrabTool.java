@@ -54,8 +54,13 @@ public class LiveGrabTool {
 			//response body见info-response.json
 			Map<String, Object> infoMap = mapper.readValue(infoResponse.body().string(), new TypeReference<>(){});
 			infoResponse.close();
-			taskInfoMap = (Map<String, Object>) ((Map<String, Object>) infoMap.get("data")).get("task_info");
-			receiveId=(int)taskInfoMap.get("receive_id");
+			try{
+				taskInfoMap = (Map<String, Object>) ((Map<String, Object>) infoMap.get("data")).get("task_info");
+				receiveId=(int)taskInfoMap.get("receive_id");
+			}catch(NullPointerException e){
+				Thread.sleep(1000); //一秒查询一次领取条件是否满足
+				continue;
+			}
 			if(receiveId==0){
 				satisfied=false;
 				System.out.println(dateFormat.format(new Date())+"领取条件仍不满足");
