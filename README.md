@@ -18,7 +18,7 @@
 
 4. 刷新，找到`single_task`开头的URL，保存CSRF
 
-   .<img src="README.pictures/image-20220831184349709.png" alt="image-20220831184349709" style="zoom:80%;" />
+   .<img src="README.pictures/image-20230125190019190.png" alt="image-20230125190019190" style="zoom:80%;" />
 
 4. 再在"请求标头"中找到Cookie，右键"复制值"
 
